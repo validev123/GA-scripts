@@ -2,10 +2,10 @@ name: my first workflow
 on: push
 jobs:
      test-job:
-        runs-on: ubuntu-latst
-        steps;
+        runs-on: ubuntu-latest
+        steps:
          - name: hello display
            run: echo "hello world"
 
-        -  name: displaying today date
+         -  name: displaying today date
            run: date
