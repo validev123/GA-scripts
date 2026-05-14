@@ -6,8 +6,12 @@ jobs:
     files:
         runs-on: ubuntu-latest
         steps:
+            -   name: checkout the repo
+                uses: actions/checkout@v6
+
             -   name: display the content of a file
                 run:  cat f1.txt
+
             -   name: display the date
                 run: date
 
