@@ -1,1 +1,12 @@
-
+name: manually triggering by human click
+on: workflow_dispatch
+jobs:
+    myfiles:
+        runs-on:    ubuntu-latest
+        steps:
+            -   name: creating a file
+                run:  echo "hai" > f2.txt
+            -   name: display disk
+                run: df -h
+            -   name: display OS
+                run: cat /etc/os-release
