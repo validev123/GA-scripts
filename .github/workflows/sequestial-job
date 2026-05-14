@@ -5,6 +5,9 @@ jobs:
   build-job:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout code
+        uses: actions/checkout@v6
+        
       - name: build steps
         run: echo "building application"
 
