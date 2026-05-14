@@ -13,7 +13,7 @@ jobs:
             -   name: display the date
                 run: date
             -   name: display the files, dir
-                run: ls-lrth
+                run: ls -lrth
             -   name: the present path
                 run: pwd
 
