@@ -16,8 +16,8 @@ jobs:
                 run: date
 
             -   name: chenge the permissions
-                run: chmod -x uptime.sh
-                
+                run: chmod +x uptime.sh
+
             -   name: executing the shell script
                 run: ./uptime.sh
 
