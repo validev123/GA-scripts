@@ -1,1 +1,11 @@
+name: my first workflow
+on: push
+jobs:
+     test-job:
+        runs-on: ubuntu-latst
+        steps;
+         - name: hello display
+           run: echo "hello world"
 
+        -  name: displaying today date
+           run: date
