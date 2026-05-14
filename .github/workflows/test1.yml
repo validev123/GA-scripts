@@ -8,4 +8,4 @@ jobs:
            run: echo "hello world"
 
          -  name: displaying today date
-           run: date
+            run: date
