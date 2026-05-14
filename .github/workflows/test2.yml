@@ -1,1 +1,19 @@
+name: file operatioons in github
+
+on: push
+
+jobs:
+    files:
+        runs-on: ubuntu-latest
+        steps:
+            -   name: creating a file
+                run:  echo "hello world" > f1.txt
+            -   name: display the content of a file
+                run:  cat f1.txt
+            -   name: display the date
+                run: date
+            -   name: display the files, dir
+                run: ls-lrth
+            -   name: the present path
+                run: pwd
 
