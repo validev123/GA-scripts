@@ -1,4 +1,4 @@
-name: file operatioons in github
+name: file operatioons in github without checkout
 
 on: workflow_dispatch
 
